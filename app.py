@@ -169,10 +169,6 @@ def _get_pipeline() -> RAGPipeline | None:
 # ═══════════════════════════════════════════════════════════════════════════
 
 with st.sidebar:
-    st.image(
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png",
-        width=50,
-    )
     st.title("📚 RAG Assistant")
     st.caption("Document Intelligence powered by Retrieval Augmented Generation")
     st.divider()
